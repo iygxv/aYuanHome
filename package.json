@@ -1,0 +1,11 @@
+{
+  "name": "index_website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:iygxv/index_website.git",
+  "author": "sy <871772825@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "sh deploy.sh"
+  }
+}
