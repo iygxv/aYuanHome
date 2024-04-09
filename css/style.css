@@ -4,12 +4,25 @@ img { border-style: none;}
 li{ list-style: none; float: left}
 a{ text-decoration: none}
 
-body {	
-	background-image: url('https://www.icodehub.top/index_website/bg.webp');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+body {
+	min-height: 100vh;	
 }
+
+body::before {
+	content: "";
+	right: 0;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	top: 0;
+	z-index: -1;
+	background-repeat: repeat;
+	min-height: 100%;
+	background-image: url("https://www.icodehub.top/blob/bg.jpeg");
+	background-size: cover;
+	opacity: 0.3;
+}
+
 
 /*百度搜索*/
 .baidu{
